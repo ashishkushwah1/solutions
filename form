@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic form</title>
+</head>
+<body>
+    <form action="form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="phone">Phone No:</label>
+        <input type="number" name="phone" id="phone">
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="0" max="120">
+        <br><br>
+        Select Gender: 
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <br><br>
+        <label for="date">Enter date: </label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <label for="color">Choose color: </label>
+        <input type="color" name="color" id="color">
+    </form>
+</body>
+</html>
